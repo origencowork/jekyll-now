@@ -1,0 +1,47 @@
+// Bootstrap overrides for this template
+.text-primary {
+  color: $primary !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border: none;
+  position: absolute;
+  background: $primary;
+  width: 100%;
+  border-left: 150px solid transparent;
+
+  @include sans-serif-font;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  left: 0
+}
+
+.btn-half {
+  position: absolute;
+  padding: 1rem 2rem;
+  left: 0
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: darken($primary, 5%) !important;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+  }
+
+.mx-auto {
+  margin-right: 0.5em !important;
+  }
+}
