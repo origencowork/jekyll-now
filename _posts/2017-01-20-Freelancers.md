@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Freelancers
+author: Lermit Rosell
+category: work
 ---
 
-La forma de trabajar está cambiando y los freelancers son prueba de esto. Cada vez hay más personas que deciden trabajar por su cuenta, tener sus propios clientes y manejar sus tiempos. Con los beneficios y retos que eso implica.
+**La forma de trabajar está cambiando y los freelancers son prueba de esto. Cada vez hay más personas que deciden trabajar por su cuenta, tener sus propios clientes y manejar sus tiempos. Con los beneficios y retos que eso implica**
 
 Este cambio es lógico y no debería tomar a nadie por sorpresa. El trabajo, como lo concebíamos hace algunos años, es un paradigma resultante de la revolución industrial. No es casualidad que los turnos laborales sean de 8 horas, tres turnos para mantener una fábrica trabajando todo el día. Sin embargo, y desde hace ya un tiempo, este formato estructurado por horas no es necesario, no hace que la empresa funcione mejor, no genera más ingresos y no hace más feliz a las personas. Es, simplemente, un paradigma.
 

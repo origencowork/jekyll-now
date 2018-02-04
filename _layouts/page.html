@@ -7,15 +7,11 @@ layout: default
 <body id="page-top">
 	{% include nav.html %}
 	<section class="bg-primary">
-		<section class="bg-primary" id="about">
-      <div class="jumbotron">
-        <div class="row">
-          {{ content }}
-        </div>
-      </div>
-    </section>
-		{% include footer.html %}
+		<div class="container">
+				{{ content }}
+		</div>
 	</section>
+	{% include footer.html %}
 </body>
 
 </html>

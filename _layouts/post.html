@@ -1,8 +1,25 @@
 ---
-layout: page
 ---
 
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+<html lang="en">
+{% include head.html %}
 
-{{ content }}
+<body id="page-top">
+	{% include nav.html %}
+	<section class="bg-primary">
+		<div class="jumbotront text-center bg-dark">
+        <h2 class="text-white mb-4">{{ page.title }}</h2>
+        <p>
+          <time class="text-white mb-4">{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} • {{ page.author }}{% endif %} {% if page.meta %} • {{ page.meta }}{% endif %}</time>
+        </p>
+    </div>
+    <div class="container bg-white">
+      {{ content }}
+    </div>
+
+
+	</section>
+	{% include footer.html %}
+</body>
+
+</html>
