@@ -10,9 +10,15 @@
   -o-background-size: cover;
   background-size: cover;
 }
-@mixin serif-font() {
-  font-family: 'Helvetica', sans-serif;
+@mixin avenir-font() {
+  font-family: 'Avenir';
+}
+@mixin gobold-font() {
+  font-family: 'Gobold';
+}
+@mixin gobold-thin-font() {
+  font-family: 'Gobold-thin';
 }
 @mixin sans-serif-font() {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica';
 }
