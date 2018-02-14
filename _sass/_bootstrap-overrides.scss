@@ -11,8 +11,6 @@
   position: absolute;
   background: $primary;
   width: 100%;
-  border-left: 150px solid transparent;
-
   @include gobold-font;
 }
 
@@ -22,10 +20,20 @@
 }
 
 .btn-half {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border: none;
   position: absolute;
+  background: $primary;
   padding: 1rem 2rem;
-  left: 0
+  left: 0;
+  -webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+  @include gobold-font;
 }
+
 
 .btn-primary {
   background-color: $primary;
