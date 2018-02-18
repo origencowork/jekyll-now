@@ -15,5 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
-
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
