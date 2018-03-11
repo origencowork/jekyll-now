@@ -92,7 +92,6 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-  sass_dir: assets/_sass
 
 # include pages
 include: ['_pages']
@@ -111,4 +110,4 @@ exclude:
   - CNAME
 
 
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
