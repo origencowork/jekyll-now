@@ -42,6 +42,10 @@ social:
     - https://plus.google.com/100179707156619449236
     - https://github.com/origencowork
 
+webmaster_verifications:
+  google: E38KHsD6meQEA9Re26FKuTMGruMXlR51Zlz0DHNcJa8
+
+lang: es_AR
 #
 # Flags below are optional
 #
@@ -68,7 +72,8 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-109678523-1
+google_tag_manager: GTM-K2D7LLF
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -91,7 +96,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to minify using :compressed
 
 # include pages
 include: ['_pages']
