@@ -5,13 +5,14 @@ layout: default
 {% include head.html %}
 
 <body id="page-top">
-	{% include nav.html %}
-	<section class="bg-primary">
-		<div class="container">
-				{{ content }}
+	<section id="header">
+		<div class="inner">
+			<img src="{{ page.image }}">
+			<ul class="actions">
+				<li><a href="/" class="button scrolly">Volver</a></li>
+			</ul>
 		</div>
 	</section>
-	{% include footer.html %}
 </body>
 
 </html>
