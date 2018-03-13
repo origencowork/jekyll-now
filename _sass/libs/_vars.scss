@@ -17,11 +17,26 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Gobold', Helvetica, sans-serif),
+		family-fixed:		('Avenir', monospace),
 		weight:				300,
 		weight-bold:		400
 	);
+
+@font-face {
+	font-family: 'Gobold';
+	src: url('../fonts/gobold_regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Gobold-thin';
+	src: url('../fonts/gobold_thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirLTStd-Light.otf') format('opentype');
+}
 
 // Palette.
 	$palette: (
