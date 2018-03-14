@@ -4,7 +4,7 @@ permalink: /blog/
 title: Blog
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   {% include head.html %}
   <body>
     <!-- Page Content -->
@@ -30,7 +30,23 @@ title: Blog
                 </div>
                 <br />
                 <div>
-                  • Publicado: {{ post.date | date: "%b %-d, %Y" }} por {% if post.author %} {{ post.author }}{% endif %}
+                  • Publicado: <time>{% assign m = post.date | date: "%-m" %}
+          {{ post.date | date: "%-d" }}
+          {% case m %}
+            {% when '1' %}Enero
+            {% when '2' %}Febrero
+            {% when '3' %}Marzo
+            {% when '4' %}Abril
+            {% when '5' %}Mayo
+            {% when '6' %}Junio
+            {% when '7' %}Juli0
+            {% when '8' %}Agosto
+            {% when '9' %}Septiembre
+            {% when '10' %}Octubre
+            {% when '11' %}Noviembre
+            {% when '12' %}Diciembre
+          {% endcase %}
+          {{ post.date | date: "%Y" }}</time> por {% if post.author %} {{ post.author }}{% endif %}
                 </div>
               </div>
             </section>
