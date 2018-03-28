@@ -3102,6 +3102,11 @@
 					opacity: 1;
 				}
 
+				.features section .icon-combo {
+					background: url("../images/COMBOS.gif");
+					display: block;
+				}
+
 				.features section:nth-child(1) .icon {
 					-moz-transition-delay: 0.15s;
 					-webkit-transition-delay: 0.15s;
