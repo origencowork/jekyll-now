@@ -4,6 +4,7 @@
 <script src="{{ "/assets/js/jquery.scrolly.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/skel.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/util.js" | prepend: site.baseurl }}"></script>
+
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">var submitted=false;</script>
@@ -13,3 +14,41 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Gracias por tu mensaje...');
   });
 </script>
+<script src="{{ "/assets/bootstrap/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#important-msg').modal('show');
+    });
+</script>
+
+<!--
+<script>
+    //Start the DOM ready
+    $( document ).ready(function() {
+
+
+        //CODE NEEDED FOR THE IMPORTANT MESSAGE MODAL POPUP
+
+            //Check to see if the cookie exists for the Don't show again option
+            if (!$.cookie('focusmsg')) {
+                //Launch the modal when you first visit the site
+                $('#important-msg').modal('show');
+            }
+
+            //Don't show again mouse click
+            $("#dont-show-again").click( function() {
+
+                //Create a cookie that lasts 14 days
+                $.cookie('focusmsg', '1', { expires: 14 });
+                $('#important-msg').modal('hide');
+
+            }); //end the click function for don't show again
+
+        //END CODE NEEDED FOR THE IMPORTANT MESSAGE MODAL POPUP
+
+
+    }); //End the DOM ready
+</script> -->
