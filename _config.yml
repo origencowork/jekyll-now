@@ -107,11 +107,6 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-maps
 
-# Maps
-maps:
-    google:
-      api_key: AIzaSyA01gWL5Unxo1lXI2-SeiEKa_BcGukDIKo
-
 # Exclude these files from your production _site
 exclude:
   - Gemfile
