@@ -11,7 +11,7 @@
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Gracias por tu mensaje...');
+  $('#gform').prepend('{{ page.message }}');
   });
 </script>
 <script src="{{ "/assets/bootstrap/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
